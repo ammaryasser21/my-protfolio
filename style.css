@@ -417,17 +417,15 @@ flex-wrap: wrap;
 .brands span{
     color:var(--font);
     display: inline-block;
-    font-size: 3rem;
-    margin-right: 5rem;
+    font-size: 4rem;
+   margin:2rem 3rem;
     cursor: pointer;
     margin-bottom: .5rem;
 }.brands span:hover{
     color:var(--main);
     transition:.4s ease all;
 }
-.brands span:last-child{
-    margin-right: 0rem;
-}
+
 /**/
 .contact-grid {
     display: grid;
@@ -654,6 +652,7 @@ display: none;
 .skill p{
     margin-bottom: 1.5rem;
 }
+
    
 }
 
@@ -679,20 +678,14 @@ display: none;
        
         font-size: .8rem;
     }
-    .brands{
-        display: flex;
-        justify-content: center;
-        margin: 1rem;
-        flex-wrap: wrap;
-        }
-        .brands span{
-            color:var(--font);
-            display: inline-block;
-            font-size: 4rem;
-            margin: 2rem;
-            cursor: pointer;
-            margin-bottom: .5rem;
-        }
+    .brands span{
+        color:var(--font);
+        display: inline-block;
+        font-size: 4rem;
+       margin:2rem 2rem;
+        cursor: pointer;
+        margin-bottom: .5rem;
+    }
      
         
     
