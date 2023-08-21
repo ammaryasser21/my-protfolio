@@ -669,5 +669,32 @@ display: none;
     .hero{
         min-height: 60vh;
     }
+    .links .btn{
+        
+        padding: .25rem .5rem;
+        
+        
+    }
+    .links {
+       
+        font-size: .8rem;
+    }
+    .brands{
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+        flex-wrap: wrap;
+        }
+        .brands span{
+            color:var(--font);
+            display: inline-block;
+            font-size: 4rem;
+            margin: 2rem;
+            cursor: pointer;
+            margin-bottom: .5rem;
+        }
+     
+        
+    
     
 }
